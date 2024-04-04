@@ -41,10 +41,12 @@ parts:
     numbered: True
     chapters:
     - file: FEM/finiteelements.ipynb
-    - file: FEM/sytemassembling.ipynb        
+    - file: FEM/myFiniteElement.ipynb
+    - file: FEM/systemassembling.ipynb
+    - file: FEM/myassembling.ipynb
     - file: FEM/erroranalysis.ipynb
     - file: FEM/nonconforming.ipynb
-    - file: FEM/myFiniteElement.ipynb
+
 
   - caption: A posteriori error estimates
     numbered: True
