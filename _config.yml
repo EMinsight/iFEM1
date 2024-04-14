@@ -21,8 +21,8 @@ execute:
         - "mixedelasticity/*"
         - "plates/*"                        
         - "sobolev/*"
-        - "timedependent/*"
-        - "timedependent/*/*"                
+        - "timedependent/ODEs/*"                
+        - "timedependent/parabolic/*"                
   
 # Define the name of the latex output file for PDF builds
 # latex:

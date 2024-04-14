@@ -98,6 +98,13 @@ parts:
 
 #  - caption: The Helmholtz equation
 
+  - caption: Time-dependent problems
+    numbered: True
+    chapters:
+    - file: timedependent/intro/heatequation.ipynb
+    - file: timedependent/intro/waveequation.ipynb
+    - file: timedependent/waves/lts.ipynb
+
   - caption: Iteration Methods
     numbered: True
     chapters:
