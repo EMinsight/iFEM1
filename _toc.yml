@@ -60,6 +60,7 @@ parts:
     numbered: True
     chapters:
     - file: pversion/hpfem.ipynb
+    - file: pversion/myhighorder.ipynb    
 
   - caption: Mixed Finite Element Methods
     numbered: True
