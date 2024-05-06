@@ -78,6 +78,7 @@ parts:
     - file: DG/stationary.ipynb
     - file: DG/instationary.ipynb
     - file: DG/Nitsche.ipynb
+    - file: DG/elliptic_stdDG.ipynb        
     - file: DG/elliptic.ipynb        
     - file: DG/splitting.ipynb        
     - file: DG/fourthorder.ipynb        

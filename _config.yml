@@ -13,6 +13,7 @@ repository:
 # See https://jupyterbook.org/content/execute.html
 execute:
   execute_notebooks: auto
+  allow_errors: true
   exclude_patterns:
         - "iFEM.ipynb"    
         - "ex20*"
