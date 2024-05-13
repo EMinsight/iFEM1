@@ -106,6 +106,8 @@ parts:
     - file: timedependent/intro/heatequation.ipynb
     - file: timedependent/intro/waveequation.ipynb
     - file: timedependent/waves/lts.ipynb
+    - file: timedependent/waves/wave-leapfrogDG.ipynb
+    - file: timedependent/waves/ringresonator.ipynb        
 
   - caption: Iteration Methods
     numbered: True
