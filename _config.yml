@@ -19,12 +19,12 @@ execute:
         - "ex20*"
         - "MPIparallel/*/*"
         - "helmholtz/*"
-        - "mixedelasticity/*"
-        - "plates/*"                        
         - "sobolev/*"
         - "timedependent/ODEs/*"                
-        - "timedependent/parabolic/*"                
-  
+        - "timedependent/parabolic/*"
+        - "mixedelasticity/*"
+        - "plates/*"
+        
 # Define the name of the latex output file for PDF builds
 # latex:
 #  latex_documents:

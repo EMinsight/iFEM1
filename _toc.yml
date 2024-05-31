@@ -94,9 +94,24 @@ parts:
     - file: secondorder/erroranalysisl2h1.ipynb    
     - file: secondorder/hybridization.ipynb    
 
-#  - caption: Mixed Methods for Elasticity
 
-#  - captionn: Mixed Methods for Plates and Shells
+  - caption: Elasticity
+    numbered: True
+    chapters:
+    - file: elasticity/modeling.ipynb
+    - file: elasticity/Newton.ipynb
+    - file: elasticity/elasticity2D.ipynb
+    - file: elasticity/linearized_elasticity.ipynb
+    - file: elasticity/dynamics.ipynb    
+
+  - caption: Plates and Shells
+    numbered: True
+    chapters:
+    - file: plates_shells/structural.ipynb    
+    - file: plates_shells/1_hhj.ipynb
+    - file: plates_shells/2_ReissnerMindlin.ipynb
+    - file: plates_shells/3_shell.ipynb
+    - file: plates_shells/4_rollup.ipynb
 
 #  - caption: The Helmholtz equation
 
@@ -137,7 +152,9 @@ parts:
     - file: multigrid/analysisML.ipynb
     - file: multigrid/analysisMG.ipynb
     - file: multigrid/multilevel-extension.ipynb
-
+    - file: multigrid/amg.ipynb
+    - file: multigrid/hcurlamg.ipynb
+    
   - caption: Saddle-point Problems
     numbered: True
     chapters:
