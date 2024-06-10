@@ -113,6 +113,17 @@ parts:
     - file: plates_shells/3_shell.ipynb
     - file: plates_shells/4_rollup.ipynb
 
+
+  - caption: Maxwell Equations
+    numbered: True
+    chapters:
+    - file: Maxwell/magnetostatics.ipynb
+    - file: Maxwell/coil.ipynb
+    - file: Maxwell/HCurl.ipynb
+    - file: Maxwell/deRham.ipynb
+
+
+
 #  - caption: The Helmholtz equation
 
   - caption: Time-dependent problems
