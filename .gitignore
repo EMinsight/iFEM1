@@ -1,1 +1,10 @@
 _build
+.ipynb_checkpoints
+ng*.trace
+ng*.html
+*.o
+*.o.d
+*.pyc
+Untitled*.ipynb
+test.out
+plugins
